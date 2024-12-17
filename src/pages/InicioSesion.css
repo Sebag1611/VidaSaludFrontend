@@ -1,0 +1,67 @@
+.formulario {
+    width: 600px;
+    margin-top: 110px;
+    transition: transform 0.3s ease-in-out; /* Animación de transición */
+}
+
+.login-container {
+    background-color: #444dfa;
+    padding: 110px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.formulario:hover {
+    transform: scale(1.02);
+}
+
+.formulario h2 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+
+#rutUser, #Password {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #b0bec5; /* Bordes suaves */
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+#rutUser:hover, #Password:hover {
+    border-color: #42a5f5; /* Color de borde activo */
+    box-shadow: 0 0 8px rgba(245, 221, 66, 0.47); /* Efecto de foco */
+}
+
+.formulario input {
+   border-radius: 8px;
+   padding: 12px;
+   border: 1px solid #b0bec5;
+   font-size: 1rem;
+   transition: all 0.3s ease;
+}
+
+.formulario input:hover {
+   border-color: #42a5f5;
+   box-shadow: 0 0 8px rgba(245, 221, 66, 0.47);
+}
+
+.formulario button {
+   background-color: #0d47a1;
+   color: white;
+   border-radius: 8px;
+   padding: 10px 20px;
+   width: 100%;
+   font-size: 1.1rem;
+   font-weight: bold;
+   border: none;
+   transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #1565c0;
+    box-shadow: 0 4px 10px rgba(21, 101, 192, 0.2);
+}
